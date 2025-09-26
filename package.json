@@ -2,11 +2,11 @@
   "name": "auth-api",
   "version": "1.0.0",
   "description": "",
-  "main": "sources/server.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
-    "dev": "node sources/server.js",
-    "start": "node sources/server.js"
+    "dev": "node server.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
