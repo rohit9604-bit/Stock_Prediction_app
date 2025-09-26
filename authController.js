@@ -1,7 +1,7 @@
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import { validationResult } from 'express-validator';
-import { pool } from '../db.js';
+import { pool } from './db.js';
 
 function signToken(user) {
   return jwt.sign(
@@ -101,4 +101,5 @@ export async function login(req, res) {
       },
     });
   }
+
 }
